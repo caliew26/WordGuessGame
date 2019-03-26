@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Word Guess Game</title>
-        <link rel="game" href="assets/javascript/game.js">
+        <link rel="text/javascript" href="assets/javascript/game.js">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     
@@ -31,7 +31,9 @@
                 </div>
 
                 <div class="guesses">
-                    <h3>Golly, Letters You've Already Guessed</h3>
+                    <h3>Golly, Letters You've Already Guessed: 
+                        <input type="text" id="alreadyguessed" onkeyup="myFunction()">
+                    </h3>
                 </div>
 
             </div>
